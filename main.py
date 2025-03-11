@@ -1,5 +1,6 @@
 import google.generativeai as genai
 from telegram import Update
+from dotenv import load_dotenv
 from telegram.ext import Application, MessageHandler, filters, CallbackContext
 import os
 load_dotenv()
